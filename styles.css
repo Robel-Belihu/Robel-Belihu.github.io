@@ -77,7 +77,8 @@ h1 {
 
 #about-me {
     background-color: #FCF9E0;
-    height: 100vh;
+    height: fit-content;
+    padding-bottom: 20px;
 }
 
 nav {
@@ -290,7 +291,7 @@ nav {
 /* CERTIFICATIONS */
 
 #certifications {
-    height: 100vh;
+    height: fit-content;
     background-color: #E9DEC2;
 }
 
@@ -454,7 +455,7 @@ footer {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 375px) {
     .project__description--paragraph {
         display: none;
     }
