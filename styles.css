@@ -78,7 +78,7 @@ h1 {
 #about-me {
     background-color: #FCF9E0;
     height: fit-content;
-    padding-bottom: 20px;
+    padding-bottom: 160px;
 }
 
 nav {
@@ -453,11 +453,4 @@ footer {
         font-size: 15px;
         font-weight: 500;
     }
-}
-
-@media (max-width: 375px) {
-    .project__description--paragraph {
-        display: none;
-    }
-
 }
